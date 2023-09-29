@@ -7,13 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "npx prettier --write .",
-    "prisma": "npx prisma"
+    "format": "npx prettier --write ."
   },
   "dependencies": {
     "@headlessui/react": "1.7.17",
     "@heroicons/react": "2.0.18",
-    "@prisma/client": "5.3.1",
+    "@supabase/auth-helpers-nextjs": "0.8.1",
+    "@supabase/supabase-js": "2.37.0",
     "@types/node": "20.7.1",
     "@types/react": "18.2.23",
     "@types/react-dom": "18.2.8",
@@ -31,7 +31,6 @@
     "postcss": "8.4.30",
     "prettier": "3.0.3",
     "prettier-plugin-tailwindcss": "0.5.4",
-    "prisma": "5.3.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   }
