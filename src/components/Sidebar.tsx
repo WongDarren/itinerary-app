@@ -7,7 +7,7 @@ import React from "react";
 import { ArchiveBoxIcon, BookmarkIcon, Cog6ToothIcon, HomeIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: 'My Trips', href: '#', icon: HomeIcon, current: true },
+  { name: 'My Trips', href: '/', icon: HomeIcon, current: true },
   { name: 'Upcoming Trips', href: '#', icon: BookmarkIcon, current: false },
   { name: 'Archived', href: '#', icon: ArchiveBoxIcon, current: false }
 ];
