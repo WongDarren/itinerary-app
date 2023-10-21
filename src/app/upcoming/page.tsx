@@ -3,15 +3,14 @@
  *
  */
 
-'use client';
+import React from "react";
+import Grid from "../../components/Grid";
 
-import Grid from '@/components/Grid';
-
-export default function Home() {
+function Page() {
   return (
     <>
       <h1 className=" text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        My Trips
+        Upcoming Trips
       </h1>
       <div className="mt-6">
         <Grid />
@@ -19,3 +18,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Page;

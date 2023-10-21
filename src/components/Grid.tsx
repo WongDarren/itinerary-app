@@ -11,7 +11,7 @@ function Grid() {
     <>
       <ul
         role="list"
-        className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
+        className="xs:grid-cols-1 grid gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 2xl:grid-cols-5"
       >
         <CardList />
       </ul>

@@ -13,6 +13,7 @@ import {
 } from '@heroicons/react/20/solid';
 import { Dialog, Menu, Transition } from '@headlessui/react';
 import Sidebar from '@/components/Sidebar';
+import Link from 'next/link';
 
 const userNavigation = [
   { name: 'Account Details', href: '#' },
@@ -157,7 +158,7 @@ function TopNavigation() {
                   {userNavigation.map(item => (
                     <Menu.Item key={item.name}>
                       {({ active }) => (
-                        <a
+                        <Link
                           href={item.href}
                           className={classNames(
                             active ? 'bg-gray-50' : '',
@@ -165,7 +166,7 @@ function TopNavigation() {
                           )}
                         >
                           {item.name}
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   ))}
