@@ -10,7 +10,7 @@ const tailwindConfig = {
   theme: {
     extend: {}
   },
-  plugins: []
+  plugins: [require('@tailwindcss/forms')]
 };
 
 export default tailwindConfig;

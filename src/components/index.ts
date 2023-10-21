@@ -1,6 +1,10 @@
-import Layout from './Layout';
+/*
+ * Copyright (c) 2023 Darren Wong. All rights reserved.
+ *
+ */
 import Footer from './Footer';
-import Header from './Header';
-import Navigation from './Navigation';
+import Layout from './Layout';
+import SideNavigation from './SideNavigation';
+import TopNavigation from './TopNavigation';
 
-export { Layout, Footer, Header, Navigation };
+export { Footer, Layout, SideNavigation, TopNavigation };
